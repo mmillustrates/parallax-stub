@@ -1,0 +1,84 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&family=Lora:ital@1&family=Montserrat:wght@600&display=swap');
+
+* {
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+}
+.p-img {
+  /* BACKGROUNG IMG STYLING */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* FLEX SETUP */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* PARALLAX IMAGE SETTINGS */
+#p1 {
+  height: 100vh;
+  background-image: url("../images/green_headphones.png");
+}
+#p2{
+    height:40vh;;
+    background-image: url("../images/pink_headphones.png");
+}
+
+#p3{
+    height:60vh;
+    background-image: url("../images/trees_pink.png");
+}
+
+#p4{
+    height:100vh;
+    background-image:url("../images/trees_blue.png");
+}
+
+#icon-image{
+  height:100px;
+}
+/* TEXT SETTINGS */
+.p-text-container {
+  background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+text-align: center;
+padding:20px;
+}
+
+.p-title {
+    /* MAIN HEADER */
+    color: #29494a;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.section{
+background: #c3abac;
+    text-align:center;
+    padding-top:40px;
+    padding-right:100px;
+    padding-left:100px;
+    padding-bottom:40px;
+}
+.section-title{
+  font-family: 'Lora', serif;
+    font-size: 36px;
+    color: #29494a;
+}
+.section-text{
+  font-family: 'Hind Madurai', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: #484848;
+}
+
